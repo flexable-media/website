@@ -4,7 +4,7 @@ layout: home
 description: FlexAble Media.
 intro_image: "images/illustrations/video.png"
 intro_image_absolute: false
-intro_image_hide_on_mobile: true
+intro_image_hide_on_mobile: false
 ---
 
 # What does the future of media look like for you?
