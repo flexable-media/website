@@ -4,9 +4,14 @@
         <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
     {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
+    <div class="call-email"><strong>Ben's Email: </strong>
       <a href="mailto:{{ .site.data.contact.email }}">
         {{ site.data.contact.email }}
+      </a>
+    </div>
+    <div class="call-email"><strong>Mike's Email: </strong>
+      <a href="mailto:{{ .site.data.contact.email2 }}">
+        {{ site.data.contact.email2 }}
       </a>
     </div>
     {% endif %}
